@@ -54,54 +54,16 @@ html {
     </div>
     </div>
   </header>
-    
-  <!-- Sixth Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/Headset.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Pediatric Surgical VR Headset Adapter</b></p>
-        <p>A 3D printed and sterilizable insert for VR headsets  to be used by children in the operating room. In order to help reduce the stress and fear children might experience pre-op. Made to fit multiple O2 mask sizes without interfering with surgery.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/Gel.png" alt="Gel_Alt" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Tissue Adhering PVA Cardiac Patches</b></p>
-        <p>PVA patches applied to the heart after infarction. Meant to assist in healing and reduce Cardiac scarring. Tissue adhering on only one side so as to be attached without sutures while not sticking to the pericardial sac.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="images/Brain.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Passive Time Dysphoria</b></p>
-        <p>A project that invesitgated the differing effects of boredom on mood between Depressed and Non-depressed patients. Data was collected via EEG and processed using machine learning.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/Alg_Pluronic.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Alginate-Pluronic Self Healing Hybrid Gels</b></p>
-        <p>Shear thinning Alginate-Pluronic hybrid gels. Intended for injection at an internal wound. Due to the incorporation of Pluronic the patch solution mechanically crosslinks and thermogels, healing and forming a gel patch after injection.</p>
-      </div>
-    </div>
-  </div>
-  
- 
 
-<!--
-  <!-- Pagination -/->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
--->
+<!-- Projects Section -->
+<div id="projects" class="w3-row-padding"></div>
+
+<script src="projects.js"></script>
+<script src="generate-grid.js"></script>
+<script>
+  displayProjects("research");
+</script>
+
   <!-- Images of Me -->
   <div class="w3-row-padding w3-padding-16" id="about">
     <div class="w3-col m6">
@@ -153,7 +115,7 @@ html {
   </div>
   
 
-<!-- End page content https://www.linkedin.com/in/artur-smiechowski-4341111a7/ --></div>
+<!-- End page content --></div>
 
 <script>
 // Script to open and close sidebar

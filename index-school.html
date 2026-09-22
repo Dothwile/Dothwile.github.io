@@ -54,71 +54,17 @@ html {
     </div>
     </div>
   </header>
-  
-  
-  <!-- Fourth Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://github.com/Dothwile/Evolutionary-Robotics-Artur-Smiechowski/branches" target="_blank">
-      <img src="images/EvolutionaryRobotics.PNG" alt="Robot" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Evolutionary Robotics</b></p></a>
-        <p>In this course I wrote code to creat a collection of simulated robots and used several varieties of evolutionary algorithms to optimize their fitness for a different tasks.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://github.com/Dothwile/BME_227_Project_3" target="_blank">
-      <img src="images/Myo.png" alt="RPS" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Biosensing Rock Paper Scissors</b></p></a>
-        <p>Final project for my Biosensing and Signals course. I wrote a machine learning program with Scikit-Learn to interpret EMG data from a forearm mounted sensor. The program was then trained to distinguish live data as a set of hand gestures (rock-paper-scissors).</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="images/Filter.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Implant RF Filter</b></p>
-        <p>Final project for my RF Circuit Design course. I designed, manufactured, and tested a Butterworth topology bandpass filter for low power membrane implants.</p>
-      </div>
-    </div>
-  </div>
 
-  <!-- Fifth Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/CAPSTONE.jpg" alt="Capstone" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>BioFET Microfluidic Testing Jig</b></p>
-        <p>As a CAPSTONE project for the company GlobalFoundries I developed a testing rig for running microflows of biofluids over BioFETS. The design is quick to set up, opticaly accessible for use at a probe station, easy + cheap to manufacture, and capable of safely containing hazardous biofluids.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/Bioprint.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Bioprinted Patches</b></p>
-        <p>As a final project for a Biomedical Engineering Lab class I designed and created different hydrogel patches on a 3D bioprinter. The mechanical integrity of composite patches with normal and hybrid gels was tested in shear vs homogenous gels.</p>
-      </div>
-    </div>
-    
-  </div>
-  
- 
+<!-- Projects Section -->
+<div id="projects" class="w3-row-padding"></div>
+
+<script src="projects.js"></script>
+<script src="generate-grid.js"></script>
+<script>
+  displayProjects("school");
+</script>
 
   
-
-<!--
-  <!-- Pagination -/->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
--->
   <!-- Images of Me -->
   <div class="w3-row-padding w3-padding-16" id="about">
     <div class="w3-col m6">
@@ -170,7 +116,7 @@ html {
   </div>
   
 
-<!-- End page content https://www.linkedin.com/in/artur-smiechowski-4341111a7/ -->
+<!-- End page content -->
 </div>
 
 <script>
